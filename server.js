@@ -6,7 +6,7 @@ var app = express()
  
 app.get('/demo', function(req, res) {
   res.json({
-    message: "Welcome to OpenShift! This message is brought to you by backend pod " + hostname,
+    message: "Welcome to OpenShift! This data is brought to you by backend pod " + hostname,
     data: null
   })
 })
